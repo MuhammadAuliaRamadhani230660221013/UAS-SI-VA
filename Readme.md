@@ -34,6 +34,8 @@ Topik harus memenuhi:
 1. **Relasi One-to-Many** antara User → Resource.
 2. **CRUD lengkap** dan membutuhkan validasi.
 3. **Mengandung ownership**, sehingga hanya pemilik yang dapat mengakses datanya.
+    - Contoh (dalam logika):
+    ❌ User A mencoba menghapus Task milik User B → API harus menolak.
 
 Contoh topik:
 
