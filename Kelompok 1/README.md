@@ -14,6 +14,7 @@ Catatan:
 Seluruh implementasi backend, frontend, arsitektur API, setup database, deployment, serta dokumentasi dikerjakan oleh Fajar (230660221093).
 
 2. Anggota Kelompok
+
 | Nama        | NIM          | Tugas                                                                                |
 | ----------- | ------------ | ------------------------------------------------------------------------------------ |
 | **Fajar**   | 230660221093 | *Seluruh implementasi proyek (backend, frontend, database, deployment, dokumentasi)* |
@@ -108,7 +109,9 @@ Inventory
 - userId (FK)
 
 6. Struktur Folder Proyek
+
 Frontend (Vite + React)
+
 lab-inventory-hub/
 │── public/
 │── src/
@@ -123,6 +126,7 @@ lab-inventory-hub/
 │── .env
 
 Backend (Express + Prisma)
+
 lab-inventory-backend/
 │── prisma/
 │   ├── migrations/
@@ -185,17 +189,20 @@ Network: http://192.168.18.5:8080/
 
 8. API Documentation (Ringkas)
 Auth Routes
+
 | Method | Endpoint             | Deskripsi         |
 | ------ | -------------------- | ----------------- |
 | POST   | `/api/auth/register` | Registrasi user   |
 | POST   | `/api/auth/login`    | Login & JWT Token |
 
 User Routes
+
 | Method | Endpoint             | Deskripsi             |
 | ------ | -------------------- | --------------------- |
 | GET    | `/api/users/profile` | Ambil data user login |
 
 Inventory Routes (Protected)
+
 | Method | Endpoint             | Deskripsi      |
 | ------ | -------------------- | -------------- |
 | GET    | `/api/inventory`     | List item user |
@@ -205,6 +212,7 @@ Inventory Routes (Protected)
 | DELETE | `/api/inventory/:id` | Hapus item     |
 
 9. Pemenuhan Checklist Proyek UAS
+
 | No | Modul Wajib    | Status  | Implementasi                         |
 | -- | -------------- | ------- | ------------------------------------ |
 | 01 | Express.js     | Selesai | Backend dibangun full dengan Express |
