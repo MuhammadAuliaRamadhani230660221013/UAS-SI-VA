@@ -113,37 +113,37 @@ Inventory
 Frontend (Vite + React)
 
 lab-inventory-hub/
-│── public/
-│── src/
-│   ├── components/
-│   ├── contexts/
-│   ├── hooks/
-│   ├── lib/
-│   ├── pages/
-│   ├── App.tsx
-│   ├── main.tsx
-│── index.html
-│── .env
+    │── public/
+    │── src/
+    │   ├── components/
+    │   ├── contexts/
+    │   ├── hooks/
+    │   ├── lib/
+    │   ├── pages/
+    │   ├── App.tsx
+    │   ├── main.tsx
+    │── index.html
+    │── .env
 
 Backend (Express + Prisma)
 
 lab-inventory-backend/
-│── prisma/
-│   ├── migrations/
-│   ├── schema.prisma
-│── src/
-│   ├── controllers/
-│   │   ├── authController.js
-│   │   ├── inventoryController.js
-│   ├── middlewares/
-│   │   ├── authMiddleware.js
-│   ├── routes/
-│   │   ├── auth.js
-│   │   ├── inventoryRoutes.js
-│   ├── utils/
-│   │   ├── prisma.js
-│   ├── index.js
-│── .env
+    │── prisma/
+    │   ├── migrations/
+    │   ├── schema.prisma
+    │── src/
+    │   ├── controllers/
+    │   │   ├── authController.js
+    │   │   ├── inventoryController.js
+    │   ├── middlewares/
+    │   │   ├── authMiddleware.js
+    │   ├── routes/
+    │   │   ├── auth.js
+    │   │   ├── inventoryRoutes.js
+    │   ├── utils/
+    │   │   ├── prisma.js
+    │   ├── index.js
+    │── .env
 
 7. Instalasi & Setup
 A. Backend
@@ -190,16 +190,16 @@ Network: http://192.168.18.5:8080/
 8. API Documentation (Ringkas)
 Auth Routes
 
-| Method | Endpoint             | Deskripsi         |
-| ------ | -------------------- | ----------------- |
-| POST   | `/api/auth/register` | Registrasi user   |
-| POST   | `/api/auth/login`    | Login & JWT Token |
+  | Method | Endpoint             | Deskripsi         |
+  | ------ | -------------------- | ----------------- |
+  | POST   | `/api/auth/register` | Registrasi user   |
+  | POST   | `/api/auth/login`    | Login & JWT Token |
 
 User Routes
-
-| Method | Endpoint             | Deskripsi             |
-| ------ | -------------------- | --------------------- |
-| GET    | `/api/users/profile` | Ambil data user login |
+  
+  | Method | Endpoint             | Deskripsi             |
+  | ------ | -------------------- | --------------------- |
+  | GET    | `/api/users/profile` | Ambil data user login |
 
 Inventory Routes (Protected)
 
