@@ -159,12 +159,13 @@ SIPRAK/
 
 ---
 
-### 🔐 Akses Demo
+## 🧪 Demo Account
 
-Untuk kredensial testing/review aplikasi, silakan hubungi:
-- **Email:** [230660221002@student.unsap.ac.id](mailto:230660221002@student.unsap.ac.id)
-- **WhatsApp:** [+62 821-2877-9114](https://wa.me/6282128779114)
+Untuk testing, silakan registrasi akun baru atau gunakan demo account:
+- Email: `demo@siprak.com`
+- Password: `demo123`
 
+> ⚠️ **Catatan:** Data demo dapat direset sewaktu-waktu
 ---
 
 ## 🔗 API Endpoints
